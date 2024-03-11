@@ -1,0 +1,328 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: #ff8c00;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 30%;
+}
+
+
+nav{
+    position:absolute;
+    top: 150px;
+    right: 0;
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+color: #ffffff;
+text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+    margin: 0 0.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    
+}
+
+.productos li:hover{
+    border-color: #ff8c00;
+    
+}
+
+.productos li:active{
+    border-color: #11e102;
+    
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    padding: 20px;
+}
+
+.productos li:hover h2{
+    font-size: 35px;
+}
+
+#taco{
+    width: 40%;
+}
+
+#pizza{
+    width: 35%;
+}
+
+#paquete{
+    width: 35%;
+}
+
+.producto-descripcion-taco{
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Comic Sans MS; 
+}
+
+.producto-descripcion{
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Comic Sans MS;
+}
+
+.producto-precio{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: Comic Sans MS;
+}
+
+.producto-precio-pizza{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: Comic Sans MS;
+}
+.producto-paquete{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: Comic Sans MS;
+
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/fondo.jpg);
+    padding: 40px
+}
+
+#blanco{
+    width: 7%;
+}
+
+.Copyrightfooter{
+    color: #ffffff;
+    margin: 20px;
+    font-size: 13px;
+}
+
+
+form{
+    margin: 40px 0;
+}
+
+form label,form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-family: Comic Sans MS;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: orange;
+    font-family: Comic Sans MS;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: orangered;
+    transform: scale(1.10);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/*Aqui inicia el CSS para nuestra home*/
+
+#banner{
+    width: 100%;
+    height: 350px;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear:left;
+}
+
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.platillopizza{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+  
+    padding: 1em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+width: 940px;
+margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: linear-gradient(#888888, #999999)
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.lista-diferenciales{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+  margin-left: 2em;
+  margin-right: auto;
+  margin-top: auto;
+  width: 45%;
+  transition: 400ms;
+  box-shadow: 10px 10px 30px 10px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.5;
+}
+
+.video{
+    
+    width: 560px;
+    padding-top: 3em;
+    margin: 3em auto;
+}
+
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+    
+nav{
+    position: static;
+}
+
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}

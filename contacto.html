@@ -1,0 +1,123 @@
+<DOCTYPE html>
+
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Taquiza! </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+
+        <header>
+
+            <div class="caja">
+            <h1><img id="logo" src="imagenes/logo.png" alt="Logo de Taquiza!" > </h1>
+            
+            <nav>
+
+                <ul>
+
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+            
+        </header>
+        
+        <main>
+            <form>
+
+                    <label for="nombreApellido">Nombre y Apellido*</label>
+                    <input type="text" id="nombreApellido" class="input-padron" required>
+                    
+                    <label for="correoElectronico">Correo Electronico*</label>
+                    <input type="email" id="correoElectronico"class="input-padron" required placeholder="email@dominio.com">
+
+                    <label for="telefono">Telefono*</label>
+                    <input type="tel" id="telefono"class="input-padron"required placeholder="(XX) XXXX-XXXX-XXX">
+
+                    <label for="mensaje">Mensaje*</label>
+                    <textarea cols="70" rows="10" id="mensage"class="input-padron" required></textarea>
+
+                    <fieldset>
+                        <legend>¿Como le gustaria que lo contactemos?</legend>
+
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                        
+        
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                        
+        
+                        <label for="radio-email"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+
+                    </fieldset>
+                    
+                <fieldset>
+                        <legend>¿En que horario prefiere ser atendido?</legend>
+
+                        <select>
+                            <option>Mañana</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+
+                        </select>    
+                </fieldset>
+                    
+                    
+                    <label class="checkbox" ><input type="checkbox" checked>¿Le gustaria recibir novedades de Taquiza!? </label> 
+
+                    <input type="submit" value="Enviar Formulario" class="enviar">
+                    
+
+            </form>
+
+            
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario </th>
+                    </tr>
+                    
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08:00 - 20:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img>
+            <img id="blanco" src="imagenes/logoblanco.png" alt="Logo de Taquiza!">
+            <p class="Copyright" >&copy Copyright Taquiza! - 2024</p>
+        
+        </footer>
+        
+        </body>
+        
+        
+        
+        
+        
+        
+        </html>
